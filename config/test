@@ -1,0 +1,2 @@
+port 5354
+nameserver 127.0.0.1
