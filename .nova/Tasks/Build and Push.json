@@ -1,9 +1,0 @@
-{
-  "actions" : {
-    "build" : {
-      "enabled" : true,
-      "script" : "#!\/bin\/sh\n\n# Build multiple architectures and push\ndocker buildx build --platform linux\/arm64\/v8,linux\/amd64 --push -t ghcr.io\/aliasproject\/dns ."
-    }
-  },
-  "openLogOnRun" : "start"
-}
